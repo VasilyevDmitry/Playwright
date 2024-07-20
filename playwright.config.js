@@ -38,7 +38,7 @@ const config  = defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'retain-on-failure',
-    video:'retain-on-failure',
+    // video:'retain-on-failure',
     screenshot:'only-on-failure'
   },
 
